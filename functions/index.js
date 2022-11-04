@@ -9,7 +9,7 @@ exports.bigben = functions.https.onRequest((req, res) => {
         <title>Time</title>
       </head>
       <body>
-        ${"BONG ".repeat(hours)}
+        ${"시간:"+date}
       </body>
     </html>`);
 });
